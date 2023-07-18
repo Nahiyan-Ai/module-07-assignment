@@ -1,0 +1,27 @@
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 10px auto;
+  background-color: #eae9e9;
+  border-radius: 5px;
+}
+
+.left {
+  display: flex;
+  padding: 10px;
+}
+
+.title {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
