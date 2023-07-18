@@ -18,6 +18,7 @@ function App() {
       {
         todoName: todo,
         id: counter,
+        completed: false,
       },
     ];
 
@@ -51,6 +52,9 @@ function App() {
                 key={todoItem.id}
                 id={todoItem.id}
                 handleDelete={handleDelete}
+                completed={todoItem.completed}
+                todos={todos}
+                setTodos={setTodos}
               />
             );
           })

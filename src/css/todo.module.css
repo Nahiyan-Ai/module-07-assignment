@@ -17,6 +17,12 @@
   font-size: 20px;
 }
 
+.checked {
+  margin: 0 10px;
+  font-size: 20px;
+  text-decoration: line-through;
+}
+
 .btn {
   border: none;
   outline: none;
